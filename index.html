@@ -17,51 +17,63 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper flow">
       <header class="header">
         <h1 class="header__title">Checkout</h1>
       </header>
 
       <main class="main">
-        <section class="products">
+        <section class="products flow">
           <article class="product">
-            <img src="images/photo1.png" alt="Vintage backbag" />
+            <img
+              class="product__image"
+              src="images/photo1.png"
+              alt="Vintage backbag"
+            />
             <div class="product__details">
-              <h3 class="product__title">Vintage Backbag</h3>
-              <div class="price">
-                <p class="price__after">$54.99</p>
-                <s class="price__before">$94.99</s>
+              <div>
+                <h3 class="product__title">Vintage Backbag</h3>
+                <div class="price">
+                  <p class="price__after">$54.99</p>
+                  <s class="price__before">$94.99</s>
+                </div>
               </div>
               <div class="quantity">
-                <button class="quantity__remove">-</button>
+                <button class="quantity__btn">-</button>
                 <p class="quantity__count">1</p>
-                <button class="quantity__add">+</button>
+                <button class="quantity__btn">+</button>
               </div>
             </div>
           </article>
           <article class="product">
-            <img src="images/photo2.png" alt="Levi shoes" />
+            <img
+              class="product__image"
+              src="images/photo2.png"
+              alt="Levi shoes"
+            />
             <div class="product__details">
-              <h3 class="product__title">Levi Shoes</h3>
-              <div class="price">
-                <p class="price__after">$74.99</p>
-                <s class="price__before">$124.99</s>
+              <div>
+                <h3 class="product__title">Levi Shoes</h3>
+                <div class="price">
+                  <p class="price__after">$74.99</p>
+                  <s class="price__before">$124.99</s>
+                </div>
               </div>
               <div class="quantity">
-                <button class="quantity__remove">-</button>
+                <button class="quantity__btn">-</button>
                 <p class="quantity__count">1</p>
-                <button class="quantity__add">+</button>
+                <button class="quantity__btn">+</button>
               </div>
             </div>
           </article>
 
           <div class="checkout-info">
-            <div class="shipping">
+            <div class="checkout-info__content shipping">
               <p class="checkout-info__title">Shipping</p>
               <p class="checkout-info__amount">$19</p>
             </div>
 
-            <div class="total">
+            <div class="checkout-info__content total">
               <p class="checkout-info__title">Total</p>
               <p class="checkout-info__amount">$148.98</p>
             </div>
