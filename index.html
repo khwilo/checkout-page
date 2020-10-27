@@ -17,6 +17,146 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>Checkout Page</h1>
+    <div class="wrapper">
+      <header class="header">
+        <h1 class="header__title">Checkout</h1>
+      </header>
+
+      <main class="main">
+        <section class="products">
+          <article class="product">
+            <img src="images/photo1.png" alt="Vintage backbag" />
+            <div class="product__details">
+              <h3 class="product__title">Vintage Backbag</h3>
+              <div class="price">
+                <p class="price__after">$54.99</p>
+                <s class="price__before">$94.99</s>
+              </div>
+              <div class="quantity">
+                <button class="quantity__remove">-</button>
+                <p class="quantity__count">1</p>
+                <button class="quantity__add">+</button>
+              </div>
+            </div>
+          </article>
+          <article class="product">
+            <img src="images/photo2.png" alt="Levi shoes" />
+            <div class="product__details">
+              <h3 class="product__title">Levi Shoes</h3>
+              <div class="price">
+                <p class="price__after">$74.99</p>
+                <s class="price__before">$124.99</s>
+              </div>
+              <div class="quantity">
+                <button class="quantity__remove">-</button>
+                <p class="quantity__count">1</p>
+                <button class="quantity__add">+</button>
+              </div>
+            </div>
+          </article>
+
+          <div class="checkout-info">
+            <div class="shipping">
+              <p class="checkout-info__title">Shipping</p>
+              <p class="checkout-info__amount">$19</p>
+            </div>
+
+            <div class="total">
+              <p class="checkout-info__title">Total</p>
+              <p class="checkout-info__amount">$148.98</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="forms">
+          <section class="form">
+            <h2 class="form__title">Contact information</h2>
+            <div class="form__group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email..."
+              />
+            </div>
+            <div class="form__group">
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Enter your phone..."
+              />
+            </div>
+          </section>
+          <section class="form">
+            <h2 class="form__title">Shipping address</h2>
+
+            <div class="form__group">
+              <label for="name">Full name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Rodney Cotton"
+              />
+            </div>
+            <div class="form__group">
+              <label for="address">Address</label>
+              <input
+                type="text"
+                name="address"
+                id="address"
+                placeholder="Your address..."
+              />
+            </div>
+            <div class="form__group">
+              <label for="city">City</label>
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="Your city..."
+              />
+            </div>
+
+            <div class="county-postcode">
+              <div class="form__group">
+                <label for="country">Country</label>
+                <input
+                  type="text"
+                  name="country"
+                  id="country"
+                  placeholder="Your country..."
+                />
+              </div>
+              <div class="form__group">
+                <label for="postal-code">Postal code</label>
+                <input
+                  type="text"
+                  name="postal-code"
+                  id="postal-code"
+                  placeholder="Your postal code..."
+                />
+              </div>
+            </div>
+          </section>
+
+          <div class="forms__footer">
+            <input type="checkbox" name="save" id="save" />
+            <label for="save">Save this information for next time</label>
+          </div>
+
+          <button class="btn-continue">Continue</button>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footnote">
+          <p>Khwilo @ DevChallenges.io</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

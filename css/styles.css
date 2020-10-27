@@ -12,6 +12,10 @@
   --clr-orange: #f2994a;
 }
 
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -20,20 +24,22 @@
 
 html,
 body,
-h1 {
+h1,
+h2,
+h3,
+p {
   margin: 0;
 }
 
 html {
   scroll-behavior: smooth;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  color: var(--clr-very-dark-gray);
-  background-color: var(--clr-white);
 }
 
 body {
   line-height: 1.5;
+  font-weight: 600;
+  color: var(--clr-very-dark-gray);
+  background-color: var(--clr-white);
 }
 
 img {
