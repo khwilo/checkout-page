@@ -208,3 +208,14 @@ img {
   border-radius: 12px;
   margin-left: auto;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 8rem;
+}
+
+.footnote p {
+  color: #a9a9a9;
+  font-size: 0.875rem;
+}
