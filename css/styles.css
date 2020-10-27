@@ -1,6 +1,4 @@
 :root {
-  /* font-size: calc(0.5em + 1vw); */
-
   --clr-white: #ffffff;
   --clr-gray: #bdbdbd;
   --clr-light-gray: #e0e0e0;
@@ -169,6 +167,7 @@ img {
 @media (min-width: 45em) {
   .forms {
     margin-top: 0;
+    width: 50%;
   }
 }
 
@@ -232,7 +231,7 @@ section.form + section.form {
   }
 
   .county-postcode .form__group {
-    width: 40%;
+    width: 48%;
   }
 
   .county-postcode .form__group + .form__group {
@@ -258,6 +257,7 @@ section.form + section.form {
 .save-container label {
   color: var(--clr-dark-gray1);
   font-size: 0.625rem;
+  margin-left: 0.2rem;
 }
 
 .btn-wrapper {
