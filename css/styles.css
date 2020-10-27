@@ -1,5 +1,5 @@
 :root {
-  font-size: calc(0.5em + 1vw);
+  /* font-size: calc(0.5em + 1vw); */
 
   --clr-white: #ffffff;
   --clr-gray: #bdbdbd;
@@ -225,13 +225,19 @@ section.form + section.form {
   margin-top: 1.2rem;
 }
 
-.county-postcode {
-  display: flex;
-  justify-content: space-between;
-}
+@media (min-width: 35em) {
+  .county-postcode {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.county-postcode .form__group + .form__group {
-  margin-top: 0;
+  .county-postcode .form__group {
+    width: 40%;
+  }
+
+  .county-postcode .form__group + .form__group {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 45em) {
