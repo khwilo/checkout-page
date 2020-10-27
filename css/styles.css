@@ -185,6 +185,24 @@ section.form + section.form {
 .form__group {
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+.icon {
+  color: var(--clr-mild-gray);
+  position: absolute;
+  bottom: 0.75rem;
+}
+
+.icon--left {
+  left: 0.8rem;
+}
+
+.icon--right {
+  right: 0.8rem;
+  background-color: var(--clr-light-gray);
+  padding: 0.05em 0.2em;
+  border-radius: 4px;
 }
 
 .form__group label {
@@ -198,7 +216,8 @@ section.form + section.form {
   color: var(--clr-mild-gray);
   border: 1px solid var(--clr-mild-gray);
   border-radius: 12px;
-  padding: 1em 0.8em;
+  padding-top: 1em;
+  padding: 1em 3.4em;
 }
 
 .county-postcode,
@@ -219,6 +238,10 @@ section.form + section.form {
   .county-postcode .form__group + .form__group {
     margin-left: 1rem;
   }
+}
+
+.btn-select .icon--right {
+  cursor: pointer;
 }
 
 .save-container {
