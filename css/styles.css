@@ -139,3 +139,72 @@ img {
   border-top: 1px solid var(--clr-gray);
   border-bottom: 1px solid var(--clr-gray);
 }
+
+.forms {
+  margin-top: 3rem;
+}
+
+.form__title {
+  color: var(--clr-very-dark-gray);
+  font-size: 0.875rem;
+  margin-bottom: 0.8rem;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__group label {
+  font-size: 0.625rem;
+  color: var(--clr-dark-gray1);
+  margin-bottom: 0.4rem;
+}
+
+.form__group input {
+  font-size: 0.75rem;
+  color: var(--clr-mild-gray);
+  border: 1px solid var(--clr-mild-gray);
+  border-radius: 12px;
+  padding: 1em 0.8em;
+}
+
+.county-postcode,
+.form__group + .form__group {
+  margin-top: 1.2rem;
+}
+
+.county-postcode {
+  display: flex;
+  justify-content: space-between;
+}
+
+.county-postcode .form__group + .form__group {
+  margin-top: 0;
+}
+
+.save-container {
+  display: flex;
+  align-items: center;
+}
+
+.save-container label {
+  color: var(--clr-dark-gray1);
+  font-size: 0.625rem;
+}
+
+.btn-wrapper {
+  display: flex;
+}
+
+.btn-continue {
+  width: 12rem;
+  height: 4rem;
+  color: var(--clr-white);
+  background-color: var(--clr-orange);
+  font-size: 1rem;
+  border: 1px solid;
+  padding: 1em 2em;
+  border-radius: 12px;
+  margin-left: auto;
+}
