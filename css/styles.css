@@ -54,15 +54,37 @@ img {
   padding: 2em 1em;
 }
 
+@media (min-width: 64em) {
+  .wrapper {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
 .header__title {
   font-size: 1.5rem;
   color: var(--clr-dark-gray2);
+}
+
+@media (min-width: 45em) {
+  .main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 }
 
 .products {
   background-color: var(--clr-very-light-gray);
   border-radius: 12px;
   padding: 2em;
+}
+
+@media (min-width: 45em) {
+  .products {
+    align-self: flex-start;
+    margin-left: 3rem;
+  }
 }
 
 .product {
@@ -144,6 +166,12 @@ img {
   margin-top: 3rem;
 }
 
+@media (min-width: 45em) {
+  .forms {
+    margin-top: 0;
+  }
+}
+
 section.form + section.form {
   margin-top: 3rem;
 }
@@ -185,6 +213,12 @@ section.form + section.form {
 
 .county-postcode .form__group + .form__group {
   margin-top: 0;
+}
+
+@media (min-width: 45em) {
+  .county-postcode .form__group + .form__group {
+    margin-left: 1rem;
+  }
 }
 
 .save-container {
