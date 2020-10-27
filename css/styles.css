@@ -1,8 +1,15 @@
 :root {
   font-size: calc(0.5em + 1vw);
 
-  --clr-black: #000000;
   --clr-white: #ffffff;
+  --clr-gray: #bdbdbd;
+  --clr-light-gray: #e0e0e0;
+  --clr-very-light-gray: #f2f2f2;
+  --clr-mild-gray: #828282;
+  --clr-dark-gray1: #4f4f4f;
+  --clr-dark-gray2: #4e5150;
+  --clr-very-dark-gray: #333333;
+  --clr-orange: #f2994a;
 }
 
 *,
@@ -21,7 +28,7 @@ html {
   scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: var(--clr-black);
+  color: var(--clr-very-dark-gray);
   background-color: var(--clr-white);
 }
 
