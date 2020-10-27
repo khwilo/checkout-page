@@ -45,3 +45,16 @@ body {
 img {
   max-width: 100%;
 }
+
+.wrapper {
+  padding: 2em 1em;
+}
+
+.wrapper > * + * {
+  margin-top: 1rem;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  color: var(--clr-dark-gray2);
+}
