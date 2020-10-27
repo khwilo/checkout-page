@@ -144,6 +144,10 @@ img {
   margin-top: 3rem;
 }
 
+section.form + section.form {
+  margin-top: 3rem;
+}
+
 .form__title {
   color: var(--clr-very-dark-gray);
   font-size: 0.875rem;
