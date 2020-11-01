@@ -26,11 +26,13 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
+- [How To Use](#how-to-use)
 - [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 <!-- OVERVIEW -->
 
@@ -54,7 +56,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - [x] I can see a page following the given design
 - [x] I can input email, phone, full name, address, city, country, and postal code
-- [ ] I can input the number of items
+- [x] I can input the number of items
 - [x] I can select at least 3 countries from the dropdown
 - [x] When I click submit button or press enter, I can see a warning if validation fails
 - [x] When I click submit button or press enter, I can see a successful alert if validation succeeds
