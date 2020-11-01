@@ -210,13 +210,22 @@ section.form + section.form {
   margin-bottom: 0.4rem;
 }
 
-.form__group input {
+.form__group input,
+select {
   font-size: 0.75rem;
   color: var(--clr-mild-gray);
   border: 1px solid var(--clr-mild-gray);
   border-radius: 12px;
-  padding-top: 1em;
   padding: 1em 3.4em;
+}
+
+select {
+  background-color: white;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+    no-repeat var(--clr-white);
+  background-position: right 1em bottom 0.8em;
 }
 
 .county-postcode,
